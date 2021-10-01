@@ -1,3 +1,5 @@
+//See readme for breakdown
+
 // isPrime function that will remember its computed values and store prime numbers within its cache
 function isPrime(num) {
     if (!isPrime.answers) {
@@ -20,6 +22,7 @@ function isPrime(num) {
 }
 
 
+
 isPrime(3)
 isPrime(6)
 isPrime(97)
@@ -27,3 +30,5 @@ isPrime(66)
 isPrime(37)
 
 console.log(isPrime.answers)
+
+
